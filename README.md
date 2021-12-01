@@ -20,3 +20,7 @@ Example Sites
 
 [Amazon](https://www.aboutamazon.com/workplace/diversity-inclusion)
 
+[Microsoft](https://www.microsoft.com/en-us/diversity/default.aspx)
+
+[Apple](https://www.apple.com/diversity/)
+

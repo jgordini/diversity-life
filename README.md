@@ -24,3 +24,7 @@ Example Sites
 
 [Apple](https://www.apple.com/diversity/)
 
+    will-change: transform;
+    transition: transform 1s cubic-bezier(0.5, 1, 0.89, 1);
+    transform: translateY(50px);
+

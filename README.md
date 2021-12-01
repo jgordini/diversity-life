@@ -18,3 +18,5 @@ Example Sites
 
 [UT](https://www.utexas.edu/about/diversity-equity-and-inclusion)
 
+[Amazon](https://www.aboutamazon.com/workplace/diversity-inclusion)
+

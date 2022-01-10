@@ -2,6 +2,8 @@
 
 [Diversity Page](https://dev.uab.edu/it/home/about/commitment-to-dei)
 
+[DEI DEV Page](https://dev.uab.edu/it/home/diversity-equity-and-inclusion)
+
 [LIfe in IT Page](https://dev.uab.edu/it/home/about/life-in-it)
 
 Example Sites

@@ -1,0 +1,138 @@
+<style>
+    article {
+			display: flex;
+		}
+		article>figure {
+			flex: 1;
+			border-right: 1.2rem solid #99c933;
+            margin-bottom:0 !important;
+		}
+		article div {
+			position: relative;
+			flex: 3;
+			background: #1e6b52;
+			color: #fff;
+			padding: 3.2rem 6rem;
+			display: flex;
+			align-items: center;
+		}
+		article p {
+			width: 85%;
+			font-weight: 200;
+			font-size: 3rem;
+			color: #fff;
+		}
+		article p::after, article p::before {
+			color: #99c933;
+			font-size: 3rem;
+			font-weight: bolder;
+		}
+		article div figure {
+			position: absolute;
+			right: 1rem;
+			bottom: 6rem;
+		}
+		article div figure img {
+			width: 5rem;
+			height: 5rem;
+		}
+		article div figure figcaption {
+			position: absolute;
+			right: 1rem;
+			width: max-content;
+			font-size: 2.5rem;
+			font-weight: 100;
+            margin:0 !important;
+		}
+    @media only screen and (max-width: 1400px) {
+		article>figure {
+			display: none;
+		}
+	}
+	@media only screen and (max-width: 1030px) {
+		html {
+			font-size: 50%;
+		}
+		article p {
+			font-size: 2.5rem;
+		}
+	}
+
+	@media only screen and (max-width: 500px) {
+		article {
+			flex-direction: column;
+		}        		
+		article>figure {
+			display: none;
+			border-right: none;
+			position: relative;
+			border-bottom: 1.5rem solid #99c933;
+		}
+		article>figure::after {
+			z-index: 10;
+			position: absolute;
+			content: "";
+			background: #99c933;
+			width: 100%;
+			height: 0.5rem;
+			bottom: 0;
+			left: 0;
+		}
+		article p {
+			font-size: 2rem;
+			width: 100%;
+			text-align: justify;
+			margin-bottom: 2rem;
+		}
+		article div {
+			position: relative;
+			flex: 3;
+			background: #1e6b52;
+			color: #fff;
+			padding: 3rem;
+			flex-direction: column;
+		}
+		article div figure {
+			position: static;
+			right: 1rem;
+			bottom: 6rem;
+			text-align: center;
+		}
+		article div figure img {
+			width: 5rem;
+			height: 10rem;
+		}
+		article div figure figcaption {
+			position: static;
+			width: max-content;
+			font-size: 2.5rem;
+			font-weight: 100;
+		}
+	} 
+	</style>
+ 
+  <article>
+            <figure>
+                <img src="images/pages/Diversity/Life/Slideshow/employee_pic.jpg" alt="" />
+            </figure>
+
+            <div>
+                <p>
+                    New hires need to know that when you come to UAB, you're
+                    coming to a family-oriented place that offers the best perks
+                    and opportunities.
+                    <strong>
+                        You get to have those opportunities with people that
+                        really care about you.
+                    </strong>
+                    When you find that all bottled up, you've found a good place
+                    to work. When I made the transition from my workplace of 20
+                    years. I knew that UAB was going to be my new home.
+                </p>
+
+                <figure>
+                    <img src="images/pages/Diversity/Life/Slideshow/Ivy-Signature-Black.png" />
+                    <figcaption>with UAB IT 2 years</figcaption>
+                </figure>
+            </div>
+        </article>
